@@ -7,6 +7,7 @@ func ContainsDuplicate(nums []int) bool {
 		if seen[v] {
 			return true
 		}
+
 		seen[v] = true
 	}
 
